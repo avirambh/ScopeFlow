@@ -1,0 +1,36 @@
+batch_size_val: 1
+bilateral_mask: false
+checkpoint: checkpoints/KITTI_comb
+checkpoint_exclude_params:
+- ''
+checkpoint_include_params:
+- '*'
+checkpoint_mode: resume_from_best
+cuda: true
+dropout: false
+evaluation: 1
+loss_perc: false
+model: IRR_PWC_V2
+model_div_flow: 0.05
+num_iters: 0
+num_workers: 4
+res2net: 0
+rewarp: false
+save: output/
+save_conf: false
+#save_result_bidirection: false
+#save_result_flo: false
+#save_result_img: false
+#save_result_occ: false
+#save_result_path_name: ''
+#save_result_png: 0
+seed: 1
+self_attention: false
+seploss: false
+validation_augmentation: null
+validation_dataset: KittiCombVal
+validation_dataset_photometric_augmentations: false
+validation_dataset_root: ../data/kitticomb/
+validation_key: epe
+validation_key_minimize: true
+validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_KITTI
