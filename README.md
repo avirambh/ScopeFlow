@@ -108,13 +108,12 @@ python evaluate.py --help
 
 If you find this work useful, please cite our paper:
 
-    @misc{barhaim2020scopeflow,
-        title={ScopeFlow: Dynamic Scene Scoping for Optical Flow},
-        author={Aviram Bar-Haim and Lior Wolf},
-        year={2020},
-        eprint={2002.10770},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
+    @InProceedings{Bar-Haim_2020_CVPR,
+    author = {Bar-Haim, Aviram and Wolf, Lior},
+    title = {ScopeFlow: Dynamic Scene Scoping for Optical Flow},
+    booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2020}
     }
 
 ## Credits
