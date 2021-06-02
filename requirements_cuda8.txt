@@ -57,5 +57,5 @@ http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-linux_x86_64.whl
 #torch==0.4.1
 torchvision==0.2.0
 tqdm==4.32.1
-urllib3==1.24.2
+urllib3==1.26.5
 Werkzeug==0.15.4
