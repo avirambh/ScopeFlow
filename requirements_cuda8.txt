@@ -28,7 +28,7 @@ matplotlib==2.2.4
 mock==3.0.5
 networkx==2.2
 numpy==1.16.4
-opencv-python==4.1.0.25
+opencv-python==4.2.0.32
 opencv-python-headless==4.1.0.25
 Pillow==5.4.1
 protobuf==3.8.0
