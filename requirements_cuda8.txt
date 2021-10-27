@@ -10,7 +10,7 @@ colorama==0.4.1
 #correlation-cuda==0.0.0
 cryptography==2.7
 cycler==0.10.0
-dask==0.18.2
+dask==2021.10.0
 decorator==4.4.0
 #Forward-Warp==0.0.1
 #forward-warp-cuda==0.0.0
