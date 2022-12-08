@@ -2,7 +2,7 @@ absl-py==0.7.1
 albumentations==0.3.0
 asn1crypto==0.24.0
 astor==0.8.0
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 cloudpickle==1.2.1
